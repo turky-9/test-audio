@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+table#keyboard{
+ width:90%;
+ border-collapse:collapse;
+}
+#keyboard td{
+ height:150px;
+ border-color:gray;
+ border-width:1px;
+ border-style:solid;
+ text-align:center;
+}
+</style>
+</head>
+<body>
+<input type="range" min="0" max="2" id="vol" step="0.05"/>
+<button id="btn">click</button>
+<table id="keyboard" class="sample">
+<tr>
+<td class="c" colspan="3" style="width:30px;border-bottom-width:0;"></td>
+<td class="cs" colspan="2" style="width:20px;border-bottom-width:1;background-color: #999;">C#</td>
+<td class="d" colspan="2" style="width:20px;border-bottom-width:0;border-bottom-width:0;"></td>
+<td class="ds" colspan="2" style="width:20px;border-bottom-width:1;background-color: #999;">D#</td>
+<td class="e" colspan="3" style="width:30px;border-bottom-width:0;"></td>
+<td class="f" colspan="3" style="width:30px;border-bottom-width:0;"></td>
+<td class="fs" colspan="2" style="width:20px;border-bottom-width:1;background-color: #999;">F#</td>
+<td class="g" colspan="2" style="width:20px;border-bottom-width:0;"></td>
+<td class="gs" colspan="2" style="width:20px;border-bottom-width:1;background-color: #999;">G#</td>
+<td class="a" colspan="2" style="width:20px;border-bottom-width:0;"></td>
+<td class="as" colspan="2" style="width:20px;border-bottom-width:1;background-color: #999;">A#</td>
+<td class="b" colspan="3" style="width:30px;border-bottom-width:0;"></td>
+</tr>
+
+<tr>
+<td id="keyC5" class="c" colspan="4" style="width:40px;height:80px;border-top-width:0;">C</td>
+<td id="keyD5" class="d" colspan="4" style="width:40px;height:80px;border-top-width:0;">D</td>
+<td id="keyE5" class="e" colspan="4" style="width:40px;height:80px;border-top-width:0;">E</td>
+<td id="keyF5" class="f" colspan="4" style="width:40px;height:80px;border-top-width:0;">F</td>
+<td id="keyG5" class="g" colspan="4" style="width:40px;height:80px;border-top-width:0;">G</td>
+<td id="keyA5" class="a" colspan="4" style="width:40px;height:80px;border-top-width:0;">A</td>
+<td id="keyB5" class="b" colspan="4" style="width:40px;height:80px;border-top-width:0;">B</td>
+</tr>
+</table>
+<script src="./audio.js"></script>
+<script>
+</script>
+</body>
+</html>
